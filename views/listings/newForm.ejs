@@ -1,0 +1,40 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<div class="container ">
+            
+
+<div class="row justify-content-center">
+  
+  <form action="/listing" method="POST" class="col-md-6 needs-validation" novalidate enctype="multipart/form-data">
+    <h2>Create New Listing</h2>
+  <label for="listing[title]" class="form-label">Title</label>
+  <input name="listing[title]" type="text" class="form-control" required>
+  <div class="valid-feedback">Title looks good!</div>
+  <br>
+  <label for="listing[description]" class="form-label">Description</label>
+  <textarea name="listing[description]" class="form-control" required ></textarea>
+  <br>
+  <label for="listing[image][url]" class="form-label">Image</label>
+  <input name="listing[image][url]" class="form-control" type="file" required></input>
+  <br>
+  <div class="row">
+    <div class="price-div col-md-8">
+      <label for="listing[location]" class="form-label ">Location</label>
+  <input name="listing[location]" type="text" class="form-control " required>
+  
+    </div>
+    <div class="country-div col-md-4">
+      <label for="listing[country]" class="form-label">Country</label>
+  <input name="listing[country]" type="text" class="form-control" required>
+  <div class="invalid-feedback">Country should be valid</div>
+    </div>
+  <br>
+  </div>
+  <label for="listing[price]" class="form-label">Price</label>
+  <input type="number" name="listing[price]"  class="form-control" >
+  <div class="invalid-feedback">Enter Valid Price</div>
+  <br>
+  <button class="btn btn-danger">Add</button>
+</form>
+</div>
+    
+</div>

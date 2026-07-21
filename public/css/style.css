@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+}
+.content{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: rgb(199, 199, 199);
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.listing-class{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+.card:hover{
+   opacity: 0.6;
+}
+.show-card:hover{
+   opacity:1 ;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.buttons {
+    display: flex;
+    color: black;
+}
+.buttons a:hover{
+    color: black;
+}
+.icons i{
+    font-size: 1.4rem;
+}
+.icons i:hover{
+    opacity: 0.8;
+}
+.prv a{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.cur{
+    cursor: pointer;
+}
+.searchbutton{
+    border-radius: 5rem;
+}
+.search{
+        border-radius: 5rem;
+    margin-right: 0.5rem;
+}

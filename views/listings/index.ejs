@@ -1,0 +1,29 @@
+
+
+<%layout("/layouts/boilerplate.ejs")%>
+
+
+  
+
+ <div class="container mt-2">
+  
+    
+<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+     <%for(let lists of listings){%>
+
+    <div class="col">
+      <div class="listing-class card h-100">
+        <a href="/listing/<%=lists._id%>">
+          <img style="height: 18rem; border-radius: 10px; object-fit:cover;" src="<%=lists.image.url%>" class="card-img-top" alt="<%=lists.title%>">
+          <div class="card-body px-0">
+            <h5 class="card-title mb-1"><%=lists.title%></h5>
+            <p class="card-text text-muted">&#8377;<%=lists.price.toLocaleString('en-IN')%> <span class="fw-normal">/ night</span></p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+<%}%>
+</div>
+ </div>
