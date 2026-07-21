@@ -17,8 +17,8 @@
         
       </ul>
       
- <form class=" navbar-nav form-inline my-2 my-lg-0 ms-auto">
-      <input sty class="search form-control mr-sm-2" type="search" placeholder="Search Destination" aria-label="Search">
+ <form action="/listing" method="get" class=" navbar-nav form-inline my-2 my-lg-0 ms-auto">
+      <input value="<%= typeof search !== 'undefined' ? search : '' %>" name="search" sty class="search form-control mr-sm-2" type="search" placeholder="Search Destination" aria-label="Search">
       <button class=" searchbutton ms-1 btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
     </form>
      

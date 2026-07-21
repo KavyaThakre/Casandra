@@ -6,8 +6,19 @@ const {geocodeLocation}=require("../util/geocode.js");
 module.exports.index=async (req,res)=>{
     
     let listings=await Listing.find();
-    
-    res.render("listings/index",{listings})
+    let {search}=req.query;
+    if(search){
+        listings = await Listing.find({
+            $or:[
+                {title:{$regex:search,$options:"i"}},
+                {location:{$regex:search,$options:"i"}},
+                {country:{$regex:search,$options:"i"}}
+            ]
+        });
+    }else{
+        listings = await Listing.find();
+    }
+    res.render("listings/index",{listings,search})
 }
 module.exports.show=async (req,res)=>{
     let {id}=req.params;

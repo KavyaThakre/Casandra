@@ -10,7 +10,7 @@ const data = [
     price: 1500,
     location: "Malibu",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
     
   },
   {
@@ -24,7 +24,7 @@ const data = [
     price: 1200,
     location: "New York City",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Mountain Retreat",
@@ -37,7 +37,7 @@ const data = [
     price: 1000,
     location: "Aspen",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Historic Villa in Tuscany",
@@ -50,6 +50,7 @@ const data = [
     price: 2500,
     location: "Florence",
     country: "Italy",
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Secluded Treehouse Getaway",
@@ -62,7 +63,7 @@ const data = [
     price: 800,
     location: "Portland",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Beachfront Paradise",
@@ -75,7 +76,7 @@ const data = [
     price: 2000,
     location: "Cancun",
     country: "Mexico",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -88,7 +89,7 @@ const data = [
     price: 900,
     location: "Lake Tahoe",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -101,6 +102,7 @@ const data = [
     price: 3500,
     location: "Los Angeles",
     country: "United States",
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -113,7 +115,7 @@ const data = [
     price: 3000,
     location: "Verbier",
     country: "Switzerland",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -126,7 +128,7 @@ const data = [
     price: 4000,
     location: "Serengeti National Park",
     country: "Tanzania",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Historic Canal House",
@@ -139,7 +141,7 @@ const data = [
     price: 1800,
     location: "Amsterdam",
     country: "Netherlands",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Private Island Retreat",
@@ -152,7 +154,7 @@ const data = [
     price: 10000,
     location: "Fiji",
     country: "Fiji",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -165,6 +167,7 @@ const data = [
     price: 1200,
     location: "Cotswolds",
     country: "United Kingdom",
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Historic Brownstone in Boston",
@@ -177,7 +180,7 @@ const data = [
     price: 2200,
     location: "Boston",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -190,7 +193,7 @@ const data = [
     price: 1800,
     location: "Bali",
     country: "Indonesia",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Mountain View Cabin in Banff",
@@ -203,7 +206,7 @@ const data = [
     price: 1500,
     location: "Banff",
     country: "Canada",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -216,7 +219,7 @@ const data = [
     price: 1600,
     location: "Miami",
     country: "United States",
-    owner:'6a59bf3d82a40d46da12bd2c'
+    owner:'6a5f525963ed7c1a558e27b9'
   },
   
 ];

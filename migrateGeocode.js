@@ -12,7 +12,7 @@ const Listing = require("./models/listing.js");
 const { geocodeLocation } = require("./util/geocode.js");
 
 async function main() {
-    await mongoose.connect("mongodb://127.0.0.1:27017/Casandra");
+    await mongoose.connect(process.env.ATLAS_DB_URL);
     console.log("DB connected");
 
     const listings = await Listing.find({
