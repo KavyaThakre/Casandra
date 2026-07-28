@@ -32,9 +32,7 @@ module.exports.isOwner=(async (req,res,next)=>{
 })
 module.exports.validateReview=(req,res,next)=>{
    
-     const result = Review.validate(req.body);
-
-   
+     const result = reviewScehma.validate(req.body);
 
     if (result.error) {
         throw new ExpressError(

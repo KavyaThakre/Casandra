@@ -31,7 +31,7 @@ const {MongoStore} = require('connect-mongo');
 
 
 app.use(methodOverride("_method"));
-app.use(cookieParser("process.env.SESSION_SECRET"))
+app.use(cookieParser(process.env.SESSION_SECRET))
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
