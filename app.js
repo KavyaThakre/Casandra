@@ -126,7 +126,7 @@ app.all("/*splat",(req,res,next)=>{
     next(new ExpressError(404,"Page not found"))
 })
 app.use((err,req,res,next)=>{
-    let{status=500,message="Bad req"}=err;
+    let{status=500,message="Something went wrong"}=err;
     res.status(status).render("error.ejs",{message})
 })
 const port = process.env.PORT || 8080;
