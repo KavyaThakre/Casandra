@@ -2,7 +2,7 @@
 
 Casandra is a full-stack property listing and booking platform inspired by Airbnb. Users can browse property listings, search by destination, view listings on an interactive map, sign up and log in, create and manage their own listings, and leave reviews on properties.
 
-**Live demo:** [casandra-5jo2.onrender.com](https://casandra-5jo2.onrender.com)
+**Live demo:** [casandra-production.up.railway.app](https://casandra-production.up.railway.app/)
 
 ## Features
 
@@ -110,7 +110,7 @@ Casandra/
 
 ## Deployment
 
-This project is deployed on [Render](https://render.com/). Environment variables are configured directly in the Render dashboard rather than committed to the repository.
+This project is deployed on [Railway](https://railway.app/). Environment variables are configured directly in the Railway dashboard rather than committed to the repository.
 
 ## License
 
