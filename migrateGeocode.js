@@ -1,10 +1,3 @@
-// One-time migration: geocodes every existing listing that doesn't
-// already have coordinates, using the free Nominatim API.
-//
-// HOW TO RUN (from the project's root folder, where app.js lives):
-//   node migrateGeocode.js
-//
-// Make sure MongoDB is running first (same DB app.js connects to).
 
 require("dotenv").config();
 const mongoose = require("mongoose");
