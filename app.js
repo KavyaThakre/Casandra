@@ -124,6 +124,7 @@ app.use((err,req,res,next)=>{
     let{status=500,message="Bad req"}=err;
     res.status(status).render("error.ejs",{message})
 })
-app.listen(8080,()=>{
-    console.log("Running");
+const port = process.env.PORT || 8080;
+app.listen(port,()=>{
+    console.log(`Running on port ${port}`);
 })
