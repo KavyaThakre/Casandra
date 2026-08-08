@@ -1,16 +1,18 @@
+<% let successMsgs = typeof success !== 'undefined' ? success : []; %>
+<% let errorMsgs = typeof error !== 'undefined' ? error : []; %>
 
-<%if(success && success.length){%>
+<%if(successMsgs && successMsgs.length){%>
 <div class="alert alert-success alert-dismissible fade show" role="alert">
-  <strong></strong><%=success%>
+  <strong></strong><%=successMsgs%>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
 <%}%>
 
-<%if(error && error.length){%>
+<%if(errorMsgs && errorMsgs.length){%>
 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-  <strong></strong><%=error%>
+  <strong></strong><%=errorMsgs%>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
