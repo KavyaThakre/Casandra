@@ -9,7 +9,7 @@ module.exports.isLoggedIn=(req,res,next)=>{
         req.session.redirectUrl=req.originalUrl;
        
         req.flash("error","Login Please")
-        return res.redirect("/login")
+        return res.redirect("/user")
     }
     next();
 }
